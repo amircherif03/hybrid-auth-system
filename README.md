@@ -22,3 +22,10 @@ fingerprint biometric verification. Access logs stored securely in MySQL databas
 - Relay-controlled door lock
 
 ## How it Works
+[RFID Card] ──→ [Arduino]
+↓
+[Fingerprint] ──→ [Match both?] ──→ YES → [Unlock door] → [Log to MySQL]
+NO  → [Deny + Alert]
+
+## Status
+✅ Completed — 2025
